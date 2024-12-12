@@ -17,14 +17,22 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow for depth */
     text-align: center; 
 }
-
+ul {
+    position:absolute;
+    top: 50px;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+   
+    display:none;
+}
 .idk {
     width:90%;
     margin:auto;
     margin-right: 20px;
 
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     
 }
 

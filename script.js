@@ -118,8 +118,11 @@ function searching(){
     })
 
     
-
-
+    
+   
+    drop.style.marginLeft = `${screen.width - search.offsetWidth}px`;
+  
+    
 }
 
 search.addEventListener('input', searching);
